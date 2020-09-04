@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PDD</string>
+    <string name="btn_pdd">Правила дорожного движения</string>
+    <string name="btn_znaki">Дорожные занаки</string>
+    <string name="btn_tests">Тесты</string>
+    <string-array name="znaki_categories">
+        <item>Предупреждающие знаки</item>
+        <item>Знаки приоритета</item>
+        <item>Запрещающие знаки</item>
+        <item>Предприсывающие знаки</item>
+        <item>Информационно-указательные знаки</item>
+        <item>Знаки сервиса</item>
+        <item>Знаки дополнительной информации(таблички)</item>
+    </string-array>
+</resources>
