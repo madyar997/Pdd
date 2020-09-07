@@ -15,8 +15,6 @@ import java.util.ArrayList;
 
 public class CategoryZnakiActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,8 +29,5 @@ public class CategoryZnakiActivity extends AppCompatActivity {
             }
         });
     }
-
-
-
 }
 
