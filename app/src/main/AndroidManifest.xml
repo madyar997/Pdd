@@ -12,14 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CategoryPddActivity"></activity>
+        <activity android:name=".PddSecondActivity"></activity>
+        <activity android:name=".CategoryPddActivity" />
         <activity android:name=".ZnakiSecondActivity" />
         <activity
             android:name=".TestActivity"
             android:label="Тесты на знание ПДД" />
-        <activity
-            android:name=".PddActivity"
-            android:label="Правила Дорожного Движения" />
         <activity
             android:name=".CategoryZnakiActivity"
             android:label="Знаки Дорожного Движения" />

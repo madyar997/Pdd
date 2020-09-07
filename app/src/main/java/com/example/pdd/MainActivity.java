@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
     }
 
     public void btn_pdd(View view) {
-        Intent intent = new Intent(this, PddActivity.class);
+        Intent intent = new Intent(this, CategoryPddActivity.class);
         startActivity(intent);
     }
     public void btn_znaki(View view) {
