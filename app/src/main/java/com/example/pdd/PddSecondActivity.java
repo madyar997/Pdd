@@ -19,13 +19,14 @@ public class PddSecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdd_second);
-
         ListView listView = (ListView) findViewById(R.id.pdd_categorys);
         Intent intent = getIntent();
-        String position = intent.getStringExtra("position");
-        Log.d(TAG,"ijsigjsoigjoifgjdfgj  " + position );
-
+        Integer position = intent.getIntExtra("position");
+        Log.d(TAG, "owojfffffffffvjjjjjjjjjjvvvvvv"+getIntent().getStringExtra("id"));
+        TextView tv_pdd = (TextView) findViewById(R.id.tv_pdd);
+        tv_pdd.setText(id);
     }
+
 }
 
 
